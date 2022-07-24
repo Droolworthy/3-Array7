@@ -8,11 +8,11 @@ namespace CS26
         {
             string text = "You. Win. Some. You. Lose. Some";
 
-            string[] substring = text.Split(' ' , '.');
+            string[] stringArray = text.Split(' ' , '.');
 
-            foreach (var line in substring)
+            foreach (string word in stringArray)
             {
-                Console.WriteLine($"Substring: {line}");
+                Console.WriteLine($"{word}");
             }
         }
     }
