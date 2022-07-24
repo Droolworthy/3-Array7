@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CS26
 {
@@ -8,11 +8,11 @@ namespace CS26
         {
             string text = "You. Win. Some. You. Lose. Some";
 
-            string[] subs = text.Split(' ' , '.');
+            string[] substring = text.Split(' ' , '.');
 
-            foreach (var sub in subs)
+            foreach (var line in substring)
             {
-                Console.WriteLine($"Substring: {sub}");
+                Console.WriteLine($"Substring: {line}");
             }
         }
     }
